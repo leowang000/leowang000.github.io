@@ -19,8 +19,10 @@
 {%- endcapture -%}
 {%- if publication_details != empty or publication_links != empty -%}
 <p>
-  {{- publication_details -}}
-  {%- if publication_details != empty and publication_links != empty -%}<br />{%- endif -%}
+  {%- if publication_details != empty -%}
+    {{- publication_details -}}
+    {%- if publication_links != empty -%}<br />{%- endif -%}
+  {%- endif -%}
   {{- publication_links -}}
 </p>
 {%- endif -%}
