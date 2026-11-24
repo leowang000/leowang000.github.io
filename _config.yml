@@ -23,7 +23,7 @@ repository               : "leowang000/leowang000.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Sihan Wang"
   pronouns         : "he/him"  
   bio              : "Undergraduate at ACM Honors Class, Shanghai Jiao Tong University"
