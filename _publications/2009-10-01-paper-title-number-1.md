@@ -3,12 +3,21 @@ title: "Paper Title Number 1"
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
+author: 'Your Name, First Collaborator'
 venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+# The example.org URLs are placeholders for this sample publication.
+arxiv: 'https://example.org/paper-1/arxiv'
+pdf: 'https://academicpages.github.io/files/paper1.pdf'
+doi: 'https://example.org/paper-1/doi'
+slides: 'https://academicpages.github.io/files/slides1.pdf'
+video: 'https://example.org/paper-1/video'
+code: 'https://example.org/paper-1/code'
+poster: 'https://example.org/paper-1/poster.pdf'
+bibtex: 'https://academicpages.github.io/files/bibtex1.bib'
+expository: 'https://example.org/paper-1/notes'
+project: 'https://example.org/paper-1/'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+
+This paper is about the number 1. The number 2 is left for future work.
+
+Resource links appear below the authors and venue on both the publication list and this detail page.

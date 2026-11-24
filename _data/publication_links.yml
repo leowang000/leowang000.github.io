@@ -1,0 +1,20 @@
+- field: arxiv
+  label: arXiv
+- field: pdf
+  label: PDF
+- field: doi
+  label: DOI
+- field: slides
+  label: Slides
+- field: video
+  label: Video
+- field: code
+  label: Code
+- field: poster
+  label: Poster
+- field: bibtex
+  label: BibTeX
+- field: expository
+  label: Notes
+- field: project
+  label: Project Page

@@ -1,0 +1,26 @@
+{%- assign publication_author = include.publication.author | default: "" | strip -%}
+{%- assign publication_venue = include.publication.venue | default: "" | strip -%}
+{%- capture publication_details -%}
+  {%- if publication_author != empty -%}
+    {{- publication_author -}}
+    {%- if publication_venue != empty -%}{{ " " }}{%- endif -%}
+  {%- endif -%}
+  {{- publication_venue -}}
+{%- endcapture -%}
+{%- capture publication_links -%}
+  {%- assign separator = "" -%}
+  {%- for link in site.data.publication_links -%}
+    {%- assign url = include.publication[link.field] | default: "" | strip -%}
+    {%- if url != empty -%}
+      {{- separator -}}<a href="{{ url | escape }}">[{{ link.label }}]</a>
+      {%- assign separator = " " -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- if publication_details != empty or publication_links != empty -%}
+<p>
+  {{- publication_details -}}
+  {%- if publication_details != empty and publication_links != empty -%}<br />{%- endif -%}
+  {{- publication_links -}}
+</p>
+{%- endif -%}
