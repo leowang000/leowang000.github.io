@@ -6,5 +6,5 @@ semester: "Fall 2024"
 semester_id: 202402
 role: "Teaching Assistant"
 institution: "Shanghai Jiao Tong University"
-instructor: "Prof. [Huiyu Weng](https://cs.sjtu.edu.cn/cse/PeopleDetail.aspx?id=78)"
+instructor: "Instructor: Prof. [Huiyu Weng](https://cs.sjtu.edu.cn/cse/PeopleDetail.aspx?id=78)"
 ---
