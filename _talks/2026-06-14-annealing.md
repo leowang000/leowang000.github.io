@@ -5,7 +5,6 @@ permalink: /talks/2026-06-14-annealing
 venue: "ACM-Class Student Academic Festival."
 location: "Shanghai, China (virtual)."
 slides: '/files/annealing_slides.pdf'
-event: 'https://sites.google.com/view/aco-student-seminar-gatech/home'
 ---
 
 Simulated annealing is a classical strategy for sampling from difficult, multimodal distributions: instead of targeting the final distribution directly, one follows a path of easier intermediate distributions. I will present a discrete optimal transport framework that quantifies when this strategy succeeds for finite-state Markov chains. Its central object is an action functional derived from the sampler's local dynamics. A general path-measure comparison theorem shows that the KL tracking error of annealed local dynamics is bounded by this action, giving a discrete analogue of recent transport-based analysis of annealed Langevin dynamics.

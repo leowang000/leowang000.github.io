@@ -28,6 +28,7 @@
     <h2 class="archive__item-title" itemprop="headline">
       <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
     </h2>
+    {% include components/talk-date.html talk=post %}
     {% include components/talk-meta.html talk=post %}
   </article>
 </div>

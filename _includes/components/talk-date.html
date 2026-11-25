@@ -1,0 +1,10 @@
+{%- assign talk_filename = include.talk.path | split: "/" | last -%}
+{%- assign talk_date = talk_filename | slice: 0, 10 -%}
+{%- assign talk_date_label = talk_date | date: "%B %d, %Y" -%}
+{%- if talk_date.size == 10 and talk_date_label != talk_date -%}
+  {%- if include.detail -%}
+<p class="page__date talk__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ talk_date | date_to_xmlschema }}">{{ talk_date_label }}</time></p>
+  {%- else -%}
+<p class="page__meta talk__date"><i class="fa fa-clock" aria-hidden="true"></i> {{ talk_date_label }}</p>
+  {%- endif -%}
+{%- endif -%}
