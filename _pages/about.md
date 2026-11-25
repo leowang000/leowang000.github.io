@@ -9,6 +9,8 @@ redirect_from:
 
 I'm a fourth-year undergraduate student in the [ACM Honors Class](https://acm.sjtu.edu.cn/home) at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), currently visiting the [Georgia Institute of Technology](https://www.gatech.edu/). My research interests lie broadly in theoretical computer science, particularly approximate counting and sampling, Markov chain Monte Carlo, and discrete probability.
 
+**I am currently applying to Ph.D. programs in theoretical computer science for Fall 2027.**
+
 I am grateful to Professors [Zongchen Chen](https://sites.gatech.edu/zongchenchen/), [Will Perkins](https://willperkins.org/), and [Chihao Zhang](https://chihaozhang.com/) for their guidance and support.
 
 Here is my [CV](https://leowang000.github.io/files/Sihan_Wang_CV.pdf).

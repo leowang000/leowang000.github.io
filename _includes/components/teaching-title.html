@@ -1,0 +1,5 @@
+{{- include.teaching.title | markdownify | remove: "<p>" | remove: "</p>" | strip -}}
+{%- assign teaching_semester = include.teaching.semester | default: "" | strip -%}
+{%- if teaching_semester != empty -%}
+  {{- " " -}}<span class="teaching__semester">({{ teaching_semester | escape }})</span>
+{%- endif -%}

@@ -152,9 +152,10 @@
 }
 
 
-/* Use the body text size for publication and talk metadata. */
+/* Use the body text size for publication, talk and teaching metadata. */
 .archive__item-excerpt.publication__meta,
 .archive__item-excerpt.talk__meta,
+.archive__item-excerpt.teaching__meta,
 .page__meta.talk__date,
 .page__date.talk__date {
   font-size: 1rem;
@@ -162,6 +163,10 @@
 
 .page__date.talk__date {
   margin-bottom: 0;
+}
+
+.teaching__semester {
+  font-weight: normal;
 }
 
 

@@ -1,11 +1,12 @@
 ---
 title: "Teaching experience 2"
 collection: teaching
-type: "Workshop"
 permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+semester: "Spring 2015"
+semester_id: 201500
+role: "Course Instructor"
+institution: "University 1, Department"
+instructor: "[Professor Two](https://example.org/instructors/two)"
 ---
 
 This is a description of a teaching experience. You can use markdown like any other post.

@@ -223,6 +223,7 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
+    sort_by: semester_id
   publications:
     output: true
     permalink: /:collection/:path/

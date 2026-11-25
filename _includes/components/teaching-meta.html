@@ -1,0 +1,17 @@
+{%- assign teaching_role = include.teaching.role | default: "" | strip -%}
+{%- assign teaching_institution = include.teaching.institution | default: "" | strip -%}
+{%- assign teaching_instructor = include.teaching.instructor | default: "" | strip -%}
+{%- capture teaching_details -%}
+  {{- teaching_role | escape -}}
+  {%- if teaching_role != empty and teaching_institution != empty -%}{{ ", " }}{%- endif -%}
+  {{- teaching_institution | escape -}}
+{%- endcapture -%}
+{%- if teaching_details != empty or teaching_instructor != empty -%}
+<p class="archive__item-excerpt teaching__meta" itemprop="description">
+  {{- teaching_details -}}
+  {%- if teaching_instructor != empty -%}
+    {%- if teaching_details != empty -%}<br />{%- endif -%}
+    Instructor: {{ teaching_instructor | markdownify | remove: "<p>" | remove: "</p>" | strip -}}
+  {%- endif -%}
+</p>
+{%- endif -%}
