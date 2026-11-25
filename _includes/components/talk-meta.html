@@ -13,7 +13,7 @@
   {%- include components/resource-links.html item=include.talk fields=site.data.talk_links -%}
 {%- endcapture -%}
 {%- if talk_details != empty or talk_links != empty -%}
-<p class="archive__item-excerpt" itemprop="description">
+<p class="archive__item-excerpt talk__meta" itemprop="description">
   {%- if talk_details != empty -%}
     {{- talk_details -}}
     {%- if talk_links != empty -%}<br />{%- endif -%}
