@@ -2,10 +2,10 @@
 {%- assign publication_venue = include.publication.venue | default: "" | strip -%}
 {%- capture publication_details -%}
   {%- if publication_author != empty -%}
-    {{- publication_author -}}
+    {{- publication_author | markdownify | remove: "<p>" | remove: "</p>" | strip -}}
     {%- if publication_venue != empty -%}{{ " " }}{%- endif -%}
   {%- endif -%}
-  {{- publication_venue -}}
+  {{- publication_venue | markdownify | remove: "<p>" | remove: "</p>" | strip -}}
 {%- endcapture -%}
 {%- capture publication_links -%}
   {%- include components/resource-links.html item=include.publication fields=site.data.publication_links -%}

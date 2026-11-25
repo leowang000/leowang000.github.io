@@ -4,7 +4,7 @@ collection: publications
 category: published
 permalink: /publication/2027-01-12-high-dimensional-ulc
 author: 'with [Zongchen Chen](https://sites.gatech.edu/zongchenchen/).'
-venue: 'ITCS 2027.'
+venue: '**ITCS 2027**.'
 arxiv: 'https://arxiv.org/abs/2609.23994'
 slides: '/files/ULC_slides.pptx'
 ---
