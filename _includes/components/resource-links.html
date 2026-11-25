@@ -1,0 +1,8 @@
+{%- assign resource_separator = "" -%}
+{%- for resource in include.fields -%}
+  {%- assign resource_url = include.item[resource.field] | default: "" | strip -%}
+  {%- if resource_url != empty -%}
+    {{- resource_separator -}}<a href="{{ resource_url | escape }}">[{{ resource.label }}]</a>
+    {%- assign resource_separator = " " -%}
+  {%- endif -%}
+{%- endfor -%}

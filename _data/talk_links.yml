@@ -1,0 +1,12 @@
+- field: slides
+  label: Slides
+- field: video
+  label: Video
+- field: event
+  label: Event Page
+- field: paper
+  label: Paper
+- field: expository
+  label: Notes
+- field: handout
+  label: Handout
