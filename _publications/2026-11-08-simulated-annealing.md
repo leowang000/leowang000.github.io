@@ -3,7 +3,7 @@ title: "Understanding Simulated Annealing: from Weak Poincaré Inequalities to a
 collection: publications
 category: preprints
 permalink: /publication/2026-11-08-simulated-annealing
-author: 'with Yuchen He, Tianhui Jiang, Zhehan Lei, Chihao Zhang.'
+author: 'with [Yuchen He](https://yuchen-he00.github.io/), Tianhui Jiang, Zhehan Lei, [Chihao Zhang](https://chihaozhang.com/).'
 venue:
 arxiv: 'https://arxiv.org/abs/2605.05877'
 ---
