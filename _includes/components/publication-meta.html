@@ -11,7 +11,7 @@
   {%- include components/resource-links.html item=include.publication fields=site.data.publication_links -%}
 {%- endcapture -%}
 {%- if publication_details != empty or publication_links != empty -%}
-<p>
+<p class="archive__item-excerpt" itemprop="description">
   {%- if publication_details != empty -%}
     {{- publication_details -}}
     {%- if publication_links != empty -%}<br />{%- endif -%}
