@@ -4,8 +4,8 @@
   {%- for field in talk_fields -%}
     {%- assign value = include.talk[field] | default: "" | strip -%}
     {%- if value != empty -%}
-      {{- talk_separator -}}{{- value -}}
-      {%- assign talk_separator = ", " -%}
+      {{- talk_separator -}}{{- value | markdownify | remove: "<p>" | remove: "</p>" | strip -}}
+      {%- assign talk_separator = " " -%}
     {%- endif -%}
   {%- endfor -%}
 {%- endcapture -%}

@@ -154,14 +154,8 @@
 
 /* Use the body text size for publication and talk metadata. */
 .archive__item-excerpt.publication__meta,
-.archive__item-excerpt.talk__meta,
-.page__meta.talk__date,
-.page__date.talk__date {
+.archive__item-excerpt.talk__meta {
   font-size: 1rem;
-}
-
-.page__date.talk__date {
-  margin-bottom: 0;
 }
 
 
